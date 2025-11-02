@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="signup&login.css" rel="stylesheet">
+</head>
+<body>
+    <div class="frm">
+    <form id="frm" action="signup.php" method="post">
+        <h1 class="head">Sign Up to EventHub</h1>
+        
+        <input type="text" placeholder="Enter first name" name="fname" class="inputs" required>
+        <input type="text" placeholder="Enter last name" name="lname" class="inputs" required>
+        <input type="email" placeholder="Enter email" name="mail" class="inputs" required>
+        <input type="number" placeholder="Phone number" name="phno" class="inputs" required>
+        <input type="password" placeholder="Enter password" name="pass" id="epass" class="inputs" required>
+        <input type="password" placeholder="Confirm password" id="cpass" class="inputs">
+      <input type="submit" value="Sign Up" class="subbtn" >
+    </form>
+    </div>
+<script>
+    let btn=document.getElementById("frm");
+    let epass=document.getElementById("epass");
+    let cpass=document.getElementById("cpass");
+    btn.addEventListener("submit",(e)=>{
+        console.log("hai ")
+        if(cpass.value!=epass.value)
+    {
+        e.preventDefault();
+        console.log("passwords are not same");
+        alert("plase same passwords");
+    }
+    })
+</script>
+</body>
+</html>

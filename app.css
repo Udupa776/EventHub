@@ -1,0 +1,151 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main{
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 10px;
+  gap:60px;
+  background-color: rgb(77, 70, 70);
+  flex-wrap: wrap;
+}
+#left{
+ display: flex;
+  align-items: center;
+  gap: 20px;
+flex-wrap: wrap;
+}
+#right{
+    display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+button {
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: aquamarine;
+
+}
+
+button:hover {
+    scale: 1.1;
+    background-color: rgb(228, 222, 222);
+    cursor: pointer;
+
+}
+
+#mainsignup {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    border-start-start-radius: 30px;
+    border-end-end-radius: 30px;
+    border: grey, 2px, solid;
+    padding: 50px;
+    background-color: aquamarine;
+}
+
+.input {
+    padding-left: 10px;
+    font-size: larger;
+    border-radius: 7px;
+}
+
+#searchBox {
+    display: flex;
+    padding: 0%;
+}
+
+#ser {
+    font-size: larger;
+
+    border: solid, 2px, rgb(76, 78, 78);
+    border-radius: 30px;
+    padding-left: 15px;
+    border-start-start-radius: 0px;
+    border-end-start-radius: 0px;
+
+}
+
+#rad {
+    font-size: larger;
+    width: 100px;
+    border: solid, 2px, rgb(76, 78, 78);
+    border-right: 0cap;
+    background-color: rgb(190, 190, 190);
+
+}
+
+#lang {
+    background-color: chartreuse;
+}
+
+#head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: grey;
+    padding: 4px;
+}
+
+.head {
+    border: 0px;
+    border-radius: 0px;
+    background-color: grey;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 45px;
+    flex-wrap: wrap;
+}
+
+.head:hover {
+    background-color: rgb(228, 222, 222);
+}
+
+#imge:hover {
+    scale: 1.1;
+    background-color: blue;
+}
+
+.slidebtn:hover {
+    cursor: pointer;
+    scale:1;
+   
+}
+
+.slidebtn {
+
+    font-size: 30px;
+    border: none;
+    margin: 10px;
+    background-color: white;
+}
+.rowlook{
+    display: flex;
+    flex-direction: row;
+}
+.off{
+    padding: 3px;
+    margin:10px;
+    box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3);
+
+}
+.off:hover{
+  cursor:all-scroll;
+}
+// this is commetnt for testing 
